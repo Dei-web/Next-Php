@@ -27,6 +27,62 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+# Dependencias de Composer
+/vendor/
+
+# Archivos de Composer que no son necesarios en producción
+composer.lock
+
+# Archivos temporales y cachés
+/.cache/
+/.tmp/
+/*.log
+
+# Configuración local de IDEs
+/.idea/
+/.vscode/
+/nbproject/
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# Archivos de dependencias locales
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales y logs
+*.log
+*.tmp
+
+# Archivos de pruebas/coverage
+.coverage
+.tox/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
 
 # vercel
 .vercel
